@@ -2,6 +2,7 @@ const express = require('express')
 const cors = require('cors')
 const Database = require('better-sqlite3')
 const path = require('path')
+const { Document, Paragraph, TextRun, HeadingLevel, Packer } = require('docx')
 
 const app = express()
 const port = 3000
@@ -66,6 +67,173 @@ db.exec(`
 `)
 
 // API Routes
+
+// Export recipes as DOCX
+app.get('/api/recipes/export', async (req, res) => {
+  try {
+    const recipes = db.prepare(`
+      SELECT 
+        r.*,
+        GROUP_CONCAT(DISTINCT l.text) as label_texts,
+        GROUP_CONCAT(DISTINCT json_object(
+          'quantity', i.quantity,
+          'unit', i.unit,
+          'name', i.name,
+          'descriptor', i.descriptor
+        )) as ingredients,
+        GROUP_CONCAT(DISTINCT json_object(
+          'number', s.step_number,
+          'description', s.description
+        )) as steps
+      FROM recipes r
+      LEFT JOIN recipe_labels rl ON r.id = rl.recipe_id
+      LEFT JOIN labels l ON rl.label_id = l.id
+      LEFT JOIN ingredients i ON r.id = i.recipe_id
+      LEFT JOIN steps s ON r.id = s.recipe_id
+      GROUP BY r.id
+      ORDER BY r.created_at DESC
+    `).all()
+
+    // Create document
+    const doc = new Document({
+      sections: [{
+        properties: {},
+        children: [
+          new Paragraph({
+            text: "Recipe Book",
+            heading: HeadingLevel.TITLE,
+          }),
+          ...recipes.flatMap(recipe => {
+            const children = []
+            
+            // Recipe Title
+            children.push(
+              new Paragraph({
+                text: recipe.title,
+                heading: HeadingLevel.HEADING_1,
+                spacing: { before: 400, after: 120 }
+              })
+            )
+            
+            // Description
+            children.push(
+              new Paragraph({
+                children: [
+                  new TextRun({
+                    text: recipe.description,
+                    size: 24
+                  })
+                ],
+                spacing: { before: 120, after: 120 }
+              })
+            )
+            
+            // Labels
+            if (recipe.label_texts) {
+              children.push(
+                new Paragraph({
+                  children: [
+                    new TextRun({
+                      text: "Labels: ",
+                      bold: true,
+                      size: 24
+                    }),
+                    new TextRun({
+                      text: recipe.label_texts.split(',').join(', '),
+                      size: 24
+                    })
+                  ],
+                  spacing: { before: 120, after: 120 }
+                })
+              )
+            }
+            
+            // Ingredients
+            children.push(
+              new Paragraph({
+                text: "Ingredients",
+                heading: HeadingLevel.HEADING_2,
+                spacing: { before: 200, after: 120 }
+              })
+            )
+            
+            if (recipe.ingredients) {
+              const ingredients = recipe.ingredients.split(',').map(i => {
+                try {
+                  const ing = JSON.parse(i)
+                  return new Paragraph({
+                    children: [
+                      new TextRun({
+                        text: `• ${ing.quantity || ''} ${ing.unit || ''} ${ing.name}${ing.descriptor ? ' (' + ing.descriptor + ')' : ''}`,
+                        size: 24
+                      })
+                    ],
+                    spacing: { before: 80, after: 80 }
+                  })
+                } catch (e) {
+                  return null
+                }
+              }).filter(Boolean)
+              
+              children.push(...ingredients)
+            }
+            
+            // Steps
+            children.push(
+              new Paragraph({
+                text: "Steps",
+                heading: HeadingLevel.HEADING_2,
+                spacing: { before: 200, after: 120 }
+              })
+            )
+            
+            if (recipe.steps) {
+              const steps = recipe.steps.split(',').map(s => {
+                try {
+                  const step = JSON.parse(s)
+                  return new Paragraph({
+                    children: [
+                      new TextRun({
+                        text: `${step.number}. ${step.description}`,
+                        size: 24
+                      })
+                    ],
+                    spacing: { before: 80, after: 80 }
+                  })
+                } catch (e) {
+                  return null
+                }
+              }).filter(Boolean)
+              
+              children.push(...steps)
+            }
+            
+            // Add page break after each recipe except the last one
+            if (recipes.indexOf(recipe) < recipes.length - 1) {
+              children.push(
+                new Paragraph({
+                  pageBreakBefore: true
+                })
+              )
+            }
+            
+            return children
+          })
+        ]
+      }]
+    })
+
+    // Generate the document
+    const buffer = await Packer.toBuffer(doc)
+    
+    res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document')
+    res.setHeader('Content-Disposition', 'attachment; filename=recipes.docx')
+    res.send(buffer)
+  } catch (error) {
+    console.error('Error exporting recipes:', error)
+    res.status(500).json({ error: 'Failed to export recipes' })
+  }
+})
 
 // Get all recipes
 app.get('/api/recipes', (req, res) => {

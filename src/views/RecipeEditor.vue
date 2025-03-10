@@ -266,9 +266,9 @@ const saveRecipe = async () => {
 
     if (!response.ok) throw new Error('Failed to save recipe')
     
-    // Reset to default recipe
-    recipe.value = { ...defaultRecipe }
+    // Clear localStorage and reset recipe
     localStorage.removeItem('current-recipe')
+    recipe.value = { ...defaultRecipe }
     
     router.push('/')
   } catch (error) {
@@ -292,10 +292,12 @@ onMounted(async () => {
       console.error('Error fetching recipe:', error)
       // Reset to default recipe on error
       recipe.value = { ...defaultRecipe }
+      localStorage.removeItem('current-recipe')
     }
   } else {
-    // Load from localStorage for new recipes
-    loadFromStorage()
+    // For new recipes, clear localStorage and use default recipe
+    localStorage.removeItem('current-recipe')
+    recipe.value = { ...defaultRecipe }
   }
 })
 </script>
