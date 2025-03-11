@@ -82,102 +82,98 @@
     ],
     "serves": "six to eight",
     "description": "Muhammara is a spicy Levantine dip made from red peppers and walnuts. It keeps in the fridge for 3 days, so double the recipe, if you like-it's as lovely spread on a cheese sandwich or served with grilled meat as it is as a dip. I've left the skins on the peppers for ease, but remove them if you don't want the texture. The mash can be made 3 days in advance; keep in the fridge in a separate container and bring back to room temperature before serving.",
-    "ingredients": {
-      "muhammara": [
-        {
-          "quantity": "5",
-          "unit": null,
-          "name": "red bell peppers",
-          "descriptor": "quartered, seeds and I stem discarded (10 cups/850g)"
-        },
-        {
-          "quantity": "I",
-          "unit": "tbsp",
-          "name": "olive oil",
-          "descriptor": "plus extra to serve"
-        },
-        {
-          "quantity": "8",
-          "unit": null,
-          "name": "garlic cloves",
-          "descriptor": "peeled"
-        },
-        {
-          "quantity": "I",
-          "unit": "tbsp",
-          "name": "thyme leaves",
-          "descriptor": null
-        },
-        {
-          "quantity": "3/4",
-          "unit": "tsp",
-          "name": "sweet smoked paprika",
-          "descriptor": null
-        },
-        {
-          "quantity": "1/4",
-          "unit": "tsp",
-          "name": "crushed red pepper flakes",
-          "descriptor": null
-        },
-        {
-          "quantity": "2",
-          "unit": "tsp",
-          "name": "balsamic vinegar",
-          "descriptor": null
-        },
-        {
-          "quantity": "2/3",
-          "unit": "cup",
-          "name": "walnut halves",
-          "descriptor": "lightly roasted and roughly chopped"
-        },
-        {
-          "quantity": null,
-          "unit": null,
-          "name": "salt",
-          "descriptor": null
-        }
-      ],
-      "mash": [
-        {
-          "quantity": "7",
-          "unit": "tbsp",
-          "name": "olive oil",
-          "descriptor": null
-        },
-        {
-          "quantity": "1",
-          "unit": null,
-          "name": "garlic clove",
-          "descriptor": "skin on and lightly crushed"
-        },
-        {
-          "quantity": "3",
-          "unit": null,
-          "name": "thyme sprigs",
-          "descriptor": null
-        },
-        {
-          "quantity": "2",
-          "unit": "cans",
-          "name": "lima beans",
-          "descriptor": "drained and rinsed (23/4 cups/ 470g drained weight)"
-        },
-        {
-          "quantity": "1",
-          "unit": "tbsp",
-          "name": "water",
-          "descriptor": null
-        },
-        {
-          "quantity": null,
-          "unit": null,
-          "name": "salt",
-          "descriptor": null
-        }
-      ]
-    },
+    "ingredients": [
+      {
+        "quantity": "5",
+        "unit": null,
+        "name": "red bell peppers",
+        "descriptor": "quartered, seeds and I stem discarded (10 cups/850g)"
+      },
+      {
+        "quantity": "I",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "descriptor": "plus extra to serve"
+      },
+      {
+        "quantity": "8",
+        "unit": null,
+        "name": "garlic cloves",
+        "descriptor": "peeled"
+      },
+      {
+        "quantity": "I",
+        "unit": "tbsp",
+        "name": "thyme leaves",
+        "descriptor": null
+      },
+      {
+        "quantity": "3/4",
+        "unit": "tsp",
+        "name": "sweet smoked paprika",
+        "descriptor": null
+      },
+      {
+        "quantity": "1/4",
+        "unit": "tsp",
+        "name": "crushed red pepper flakes",
+        "descriptor": null
+      },
+      {
+        "quantity": "2",
+        "unit": "tsp",
+        "name": "balsamic vinegar",
+        "descriptor": null
+      },
+      {
+        "quantity": "2/3",
+        "unit": "cup",
+        "name": "walnut halves",
+        "descriptor": "lightly roasted and roughly chopped"
+      },
+      {
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "descriptor": null
+      },
+      {
+        "quantity": "7",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "descriptor": null
+      },
+      {
+        "quantity": "1",
+        "unit": null,
+        "name": "garlic clove",
+        "descriptor": "skin on and lightly crushed"
+      },
+      {
+        "quantity": "3",
+        "unit": null,
+        "name": "thyme sprigs",
+        "descriptor": null
+      },
+      {
+        "quantity": "2",
+        "unit": "cans",
+        "name": "lima beans",
+        "descriptor": "drained and rinsed (23/4 cups/ 470g drained weight)"
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "water",
+        "descriptor": null
+      },
+      {
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "descriptor": null
+      }
+    ],
     "steps": [
       "Preheat the oven to 450°F.",
       "Mix the peppers and oil and spread out on a large parchment- lined baking sheet. Roast for 15 minutes, and then add the garlic. Continue to roast for 15 minutes, until the skin of the peppers is soft and starting to blacken and the garlic is golden brown.",
@@ -361,28 +357,16 @@
     "serves": "6 as a side",
     "ingredients": [
       {
-        "quantity": "1",
+        "quantity": "2 lb 1 ½ oz/950g",
         "unit": "large",
         "name": "butternut squash",
         "descriptor": "unpeeled, halved lengthwise, seeded and cut into ½-inch/1cm-thick half-moons or wedges"
-      },
-      {
-        "quantity": "2 lb 1 ½ oz/950g",
-        "unit": null,
-        "name": null,
-        "descriptor": null
       },
       {
         "quantity": "2",
         "unit": null,
         "name": "red onions",
         "descriptor": "cut into 1¼-inch/3cm-wide wedges"
-      },
-      {
-        "quantity": "3 ½ cups/320g",
-        "unit": null,
-        "name": null,
-        "descriptor": null
       },
       {
         "quantity": "3",
@@ -825,21 +809,9 @@
         "descriptor": "peeled and cut into ¾-inch/2cm wedges"
       },
       {
-        "quantity": "3",
-        "unit": "cups/300g",
-        "name": null,
-        "descriptor": null
-      },
-      {
         "quantity": "2",
         "unit": "tbsp",
         "name": "olive oil",
-        "descriptor": null
-      },
-      {
-        "quantity": null,
-        "unit": null,
-        "name": "salt",
         "descriptor": null
       },
       {
@@ -879,7 +851,7 @@
         "descriptor": null
       },
       {
-        "quantity": "I",
+        "quantity": "1",
         "unit": null,
         "name": "small garlic clove",
         "descriptor": "minced"
@@ -1302,77 +1274,73 @@
       "easier"
     ],
     "serves": "4",
-    "ingredients": {
-      "TAHINI DRESSING": [
-        {
-          "quantity": "1",
-          "unit": "tsp",
-          "name": "honey"
-        },
-        {
-          "quantity": "1½",
-          "unit": "tsp",
-          "name": "rice vinegar"
-        },
-        {
-          "quantity": "1",
-          "unit": "tbsp",
-          "name": "mirin"
-        },
-        {
-          "quantity": "1",
-          "unit": "tsp",
-          "name": "Dijon mustard"
-        },
-        {
-          "quantity": "1½",
-          "unit": "tsp",
-          "name": "soy sauce"
-        },
-        {
-          "quantity": "1",
-          "unit": "tbsp",
-          "name": "tahini"
-        },
-        {
-          "quantity": "1",
-          "unit": "tbsp",
-          "name": "peanut oil"
-        }
-      ],
-      "OTHER": [
-        {
-          "quantity": "1¾",
-          "unit": "oz/50g",
-          "name": "seaweed spaghetti"
-        },
-        {
-          "quantity": "1",
-          "name": "large English cucumber",
-          "descriptor": "halved lengthwise, seeds scooped out, and flesh cut into long, thin strips (2½ cups/250g)"
-        },
-        {
-          "quantity": "2",
-          "unit": "tbsp/20g",
-          "name": "white or black sesame seeds",
-          "descriptor": "or a mixture of both, lightly toasted"
-        },
-        {
-          "quantity": "¾",
-          "unit": "cup/15g",
-          "name": "cilantro leaves"
-        },
-        {
-          "name": "salt"
-        },
-        {
-          "quantity": "½",
-          "unit": "tsp",
-          "name": "crushed red pepper flakes",
-          "descriptor": "(or nanami togarashi, if you have it)"
-        }
-      ]
-    },
+    "ingredients": [
+    {
+      "quantity": "1",
+        "unit": "tsp",
+        "name": "honey"
+      },
+      {
+        "quantity": "1½",
+        "unit": "tsp",
+        "name": "rice vinegar"
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "mirin"
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "Dijon mustard"
+      },
+      {
+        "quantity": "1½",
+        "unit": "tsp",
+        "name": "soy sauce"
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "tahini"
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "peanut oil"
+      },
+      {
+        "quantity": "1¾",
+        "unit": "oz/50g",
+        "name": "seaweed spaghetti"
+      },
+      {
+        "quantity": "1",
+        "name": "large English cucumber",
+        "descriptor": "halved lengthwise, seeds scooped out, and flesh cut into long, thin strips (2½ cups/250g)"
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp/20g",
+        "name": "white or black sesame seeds",
+        "descriptor": "or a mixture of both, lightly toasted"
+      },
+      {
+        "quantity": "¾",
+        "unit": "cup/15g",
+        "name": "cilantro leaves"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "quantity": "½",
+        "unit": "tsp",
+        "name": "crushed red pepper flakes",
+        "descriptor": "(or nanami togarashi, if you have it)"
+      }
+    ],
     "steps": [
       "To make the dressing, put the honey, vinegar, mirin, mustard, soy sauce, tahini, and peanut oil in a small bowl, whisk well to combine, then set aside.",
       "Put the seaweed spaghetti into a medium saucepan and cover with cold water. Bring to a boil, then decrease to a simmer and cook for 15 minutes, until al dente. Drain, refresh under cold running water, pat dry, and set aside. Place in a large bowl, along with the cucumber, sesame seeds, cilantro, dressing, and 1/2 tsp of salt. Mix together, then divide among the bowls (or arrange in a large serving bowl), sprinkle with chile flakes and serve at once."
@@ -1855,7 +1823,7 @@
       "lazy"
     ],
     "serves": "Makes about twenty patties, to serve four as a main or six as a snack",
-    "ingredients_sauce": [
+    "ingredients": [
       {
         "quantity": "1",
         "unit": "cup/250g",
@@ -1879,9 +1847,7 @@
         "unit": "tbsp",
         "name": "lemon juice",
         "descriptor": null
-      }
-    ],
-    "ingredients_patties": [
+      },
       {
         "quantity": "1/2",
         "unit": "cup/60g",
@@ -2213,12 +2179,6 @@
         "unit": null,
         "name": "chicken legs",
         "descriptor": "(skin on and bone in) skin scored a few times"
-      },
-      {
-        "quantity": "3",
-        "unit": "lb/1.4g",
-        "name": null,
-        "descriptor": null
       },
       {
         "quantity": "5",
@@ -2848,8 +2808,8 @@
       },
       {
         "quantity": "2",
-        "unit": "limes",
-        "name": null,
+        "unit": null,
+        "name": "limes",
         "descriptor": "finely zest to get 2 tsp, then cut into wedges, to serve"
       },
       {
@@ -2963,44 +2923,26 @@
         "descriptor": "pits removed, sliced into 1/2-inch/11/2cm wedges"
       },
       {
-        "quantity": "2½",
-        "unit": "cups",
-        "name": "340g",
-        "descriptor": null
-      },
-      {
         "quantity": "2",
         "unit": "cups",
-        "name": "200g",
+        "name": "raspberries",
         "descriptor": "raspberries"
       },
       {
         "quantity": "1½",
         "unit": "cups",
-        "name": null,
-        "descriptor": "plus 2 tbsp"
-      },
-      {
-        "quantity": "320g",
-        "unit": null,
         "name": "granulated sugar",
-        "descriptor": null
+        "descriptor": "plus 2 tbsp"
       },
       {
         "quantity": "I",
         "unit": "cup",
-        "name": "125g",
-        "descriptor": "blanched hazelnuts"
+        "name": "blanched hazelnuts",
+        "descriptor": null
       },
       {
         "quantity": "3/4",
         "unit": "cup",
-        "name": null,
-        "descriptor": "plus 2 tbsp"
-      },
-      {
-        "quantity": "200g",
-        "unit": null,
         "name": "unsalted butter",
         "descriptor": "at room temperature"
       },
@@ -3013,12 +2955,6 @@
       {
         "quantity": "3/4",
         "unit": "cup",
-        "name": null,
-        "descriptor": "plus 2 tbsp"
-      },
-      {
-        "quantity": "125g",
-        "unit": null,
         "name": "all-purpose flour",
         "descriptor": null
       },
@@ -3162,12 +3098,6 @@
         "descriptor": "(or 4 smaller), trimmed and cut into 1/4-inch/1/2cm slices"
       },
       {
-        "quantity": "6",
-        "unit": "cups",
-        "name": null,
-        "descriptor": "/530g"
-      },
-      {
         "quantity": null,
         "unit": null,
         "name": "salt and black pepper",
@@ -3184,12 +3114,6 @@
         "unit": "small",
         "name": "preserved lemon",
         "descriptor": ", seeds discarded, skin and flesh finely chopped"
-      },
-      {
-        "quantity": "21/2",
-        "unit": "tbsp",
-        "name": null,
-        "descriptor": null
       },
       {
         "quantity": "11/4",
@@ -3724,9 +3648,6 @@
     ],
     "serves": "four generously",
     "ingredients": [
-      {
-        "section": "GREEN CHILE PASTE",
-        "items": [
           {
             "quantity": "1½",
             "unit": null,
@@ -3750,12 +3671,7 @@
             "unit": "tbsp",
             "name": "olive oil",
             "descriptor": null
-          }
-        ]
-      },
-      {
-        "section": null,
-        "items": [
+          },
           {
             "quantity": "2/3",
             "unit": "cup/200g",
@@ -3804,9 +3720,7 @@
             "name": "salt",
             "descriptor": null
           }
-        ]
-      }
-    ],
+        ],
     "steps": [
       "Place all the ingredients for the chile paste in the bowl of a food processor, with 1/4 tsp of salt. Blitz to form a rough paste and set aside.",
       "Put the yogurt in a bowl and whisk with the mint, lemon juice, 1/2 tsp of the cumin seeds, and rounded 1/4 tsp salt. Add the cucumber, onion, and tomatoes and stir gently. Transfer to a shallow bowl and top with chile paste. Swirl lightly, sprinkle with the remaining 1/2 tsp of cumin seeds and serve."
@@ -3903,22 +3817,10 @@
         "descriptor": "(or any other sweet red tomato), cut into ½-inch/1 cm dice"
       },
       {
-        "quantity": "4",
-        "unit": "cups",
-        "name": null,
-        "descriptor": "/650g"
-      },
-      {
         "quantity": "3",
         "unit": null,
         "name": "or 4 Lebanese (small) cucumbers",
         "descriptor": "(or | English cucumber), cut into ½-inch/1cm dice"
-      },
-      {
-        "quantity": "2",
-        "unit": "cups",
-        "name": null,
-        "descriptor": "/300g"
       },
       {
         "quantity": "1",
@@ -3927,22 +3829,10 @@
         "descriptor": ", seeded and cut into ½-inch/1 cm dice"
       },
       {
-        "quantity": "1",
-        "unit": "cup",
-        "name": null,
-        "descriptor": "/150g"
-      },
-      {
         "quantity": "5",
         "unit": null,
         "name": "green onions",
         "descriptor": ", thinly sliced on an angle"
-      },
-      {
-        "quantity": "¾",
-        "unit": "cup",
-        "name": null,
-        "descriptor": "/50g"
       },
       {
         "quantity": "¾",
@@ -4004,9 +3894,6 @@
     "serves": "four",
     "description": "It can be easy to get a bit set in your ways with salad dressing. Trying something new as I do here, with the ginger and yogurt can be a real joy. Prep the cucumbers in advance if you like, but don't mix them with the dressing until just before serving; the salt in the dressing releases the water in the cucumber, so it will become watery if it sits around for too long. If you start with regular-size cucumbers that's fine, but you'll need to cut out the watery core before slicing. This is absolutely lovely with all sorts of things—a roast leg of lamb, some grilled salmon, or the pea, za'atar, and feta fritters, on page 20, to mention just three.\nThe dressing can be made 2 days in advance and kept in the fridge. Slice and refrigerate the cucumbers up to 6 hours in advance.",
     "ingredients": [
-      {
-        "section": "DRESSING",
-        "ingredients": [
           {
             "quantity": "1",
             "unit": "tbsp",
@@ -4036,12 +3923,7 @@
             "unit": null,
             "name": "flaked sea salt",
             "descriptor": null
-          }
-        ]
-      },
-      {
-        "section": "MAIN",
-        "ingredients": [
+          },
           {
             "quantity": "5",
             "unit": null,
@@ -4072,9 +3954,7 @@
             "name": "nigella seeds",
             "descriptor": null
           }
-        ]
-      }
-    ],
+        ],
     "steps": [
       "For the dressing, whisk lemon juice, garlic, ginger, and yogurt with a rounded 1/4 tsp flaked salt and set aside.",
       "Take each cucumber and quarter lengthwise. Then cut each long quarter diagonally into 1/4-inch/12cm slices and place in a large bowl with the lamb's lettuce, mint, and cilantro. Gently mix the cucumber and leaves with the dressing and spread in a large shallow bowl. Sprinkle with the nigella seeds and serve."
@@ -4084,6 +3964,7 @@
     "filename": "IMG_0063.jpeg",
     "book": "Ottolenghi simple",
     "title": "Cauliflower \"tabbouleh\"",
+    "description": "If you're doubling or tripling this recipe, break the cauliflower into florets and pop them into a food processor (rather than grating by hand). Pulse a few times to blitz it up into tabbouleh-like pieces, but don't overwork the machine, as the cauliflower will turn to a mush. Toasted pistachios, roughly chopped, can be used instead of (or as well as) the pomegranate seeds, if you want a crunchy garnish.",
     "labels": [
       "short-on-time",
       "ten-ingredients"
@@ -4158,7 +4039,6 @@
       }
     ],
     "steps": [
-      "If you're doubling or tripling this recipe, break the cauliflower into florets and pop them into a food processor (rather than grating by hand). Pulse a few times to blitz it up into tabbouleh-like pieces, but don't overwork the machine, as the cauliflower will turn to a mush. Toasted pistachios, roughly chopped, can be used instead of (or as well as) the pomegranate seeds, if you want a crunchy garnish.",
       "Hold the cauliflower by its stalk and grate the florets and smaller stalks coarsely, on the large holes of a box grater. (Alternatively, you can use a food processor with its largest grating attachment in place, which is quicker.) Once grated, the cauliflower looks like cooked bulgur wheat and should weigh about 1 ½ lb/700g. The cauliflower stalk can be sliced thinly and added to salads.",
       "Place the grated cauliflower in a large bowl along with the lemon juice and 1¼ tsp salt. Set aside to marinate for 20 minutes, then add the green onions, parsley, dill, mint, allspice, oil, and a generous grind of black pepper. Gently mix to combine, transfer to a serving plate or bowl, sprinkle with the pomegranate seeds, and serve."
     ]
@@ -4902,8 +4782,8 @@
       },
       {
         "quantity": "1",
-        "unit": "lemon",
-        "name": null,
+        "unit": null,
+        "name": "lemon",
         "descriptor": "juice half to get 1 tbsp and cut the other half into 2 wedges, to serve"
       },
       {
@@ -5028,9 +4908,9 @@
         "descriptor": null
       },
       {
-        "quantity": "1 cup plus 1 tbsp/ 250ml",
-        "unit": "water",
-        "name": null,
+        "quantity": "250",
+        "unit": "ml",
+        "name": "water",
         "descriptor": null
       }
     ],
@@ -5442,12 +5322,6 @@
         "descriptor": "hairy roots discarded (no need to trim), unpeeled but scrubbed clean"
       },
       {
-        "quantity": "2½",
-        "unit": "lb/1.2kg",
-        "name": null,
-        "descriptor": null
-      },
-      {
         "quantity": "3",
         "unit": "tbsp",
         "name": "olive oil",
@@ -5489,8 +5363,7 @@
     ],
     "serves": "4",
     "description": "Creamy mash is hard to beat, but I often prefer olive oil-based mashes, especially if the centerpiece of the meal is already very rich. Adding aromatics to your cooking water is a great way to jazz up mash. I've used thyme, mint, lemon, and garlic here, but try experimenting with different herbs and spices. Get ahead by peeling and cutting the potatoes up to 6 hours in advance if you like. Just keep them in a pot of cold water and drain before starting the recipe.",
-    "ingredients": {
-      "base": [
+    "ingredients": [
         {
           "quantity": "2",
           "unit": "lb 2 oz/1kg",
@@ -5538,9 +5411,7 @@
           "unit": null,
           "name": "black pepper",
           "descriptor": null
-        }
-      ],
-      "topping": [
+        },
         {
           "quantity": "1/4",
           "unit": "cup/60ml",
@@ -5577,8 +5448,7 @@
           "name": "salt and black pepper",
           "descriptor": null
         }
-      ]
-    },
+      ],
     "steps": [
       "Put the potatoes, thyme sprigs, mint sprigs, garlic, lemon strips, and 2 tsp of salt into a large saucepan. Cover with enough boiling water to rise 3/4 inch/2cm above the potatoes. Simmer gently for about 25 minutes, or until the potatoes are soft enough to mash.",
       "While the potatoes are boiling, make the topping. Put the oil, garlic, thyme leaves, mint leaves, lemon zest, and lemon juice into a small bowl with 1/8 tsp of salt, and a good grind of pepper. Stir to combine, and set aside.",
@@ -5749,20 +5619,8 @@
         "descriptor": "cloves peeled"
       },
       {
-        "quantity": "3¼",
-        "unit": "oz/90g",
-        "name": null,
-        "descriptor": null
-      },
-      {
-        "quantity": "½",
-        "unit": "cup plus 1½ tbsp",
-        "name": null,
-        "descriptor": null
-      },
-      {
-        "quantity": "130g",
-        "unit": null,
+        "quantity": "130",
+        "unit": "g",
         "name": "goose or duck fat",
         "descriptor": null
       },
@@ -5953,8 +5811,8 @@
       },
       {
         "quantity": "2",
-        "unit": "onions",
-        "name": null,
+        "unit": null,
+        "name": "onions",
         "descriptor": "sliced paper-thin (3 cups/300g)"
       },
       {
@@ -5989,8 +5847,8 @@
       },
       {
         "quantity": "1",
-        "unit": "lemon",
-        "name": null,
+        "unit": null,
+        "name": "lemon",
         "descriptor": "finely zest to get 1 tsp, then juice to get 1 tbsp"
       }
     ],
@@ -6724,22 +6582,10 @@
         "descriptor": "coarsely grated"
       },
       {
-        "quantity": "½",
-        "unit": "cup/60g",
-        "name": null,
-        "descriptor": null
-      },
-      {
         "quantity": "1/2",
         "unit": null,
         "name": "small tomatoes",
         "descriptor": "coarsely grated and skin discarded"
-      },
-      {
-        "quantity": "1/2",
-        "unit": "cup/140g",
-        "name": null,
-        "descriptor": null
       },
       {
         "quantity": "1",
@@ -7504,6 +7350,7 @@
     "book": "Ottolenghi simple",
     "filename": "IMG_0105.jpeg",
     "title": "Grilled prawn, corn, and tomato salad",
+    "description": "Taking the shell off the prawns can be a bit of a fiddly job, so start with peeled prawns (fresh, or frozen and defrosted), if you like. They won't have the tail intact, which always looks great, but they work perfectly well. If you want to get ahead, make the dressing up to 2 days in advance.",
     "labels": [
       "short-on-time",
       "ten-ingredients"
@@ -7703,7 +7550,7 @@
     ],
     "serves": "6",
     "description": "This is a good dessert if you have overripe strawberries that are slightly past their best. Roasting them makes them deliciously soft and sticky. All of the elements can be made 3 days in advance-keep them separate in the fridge and assemble when ready to serve. Serve this as it is, for a light summer dessert, or with shortbread biscuits. Thanks to Helen Graham.",
-    "ingredients_yogurt": [
+    "ingredients": [
       {
         "quantity": "3 3/4",
         "unit": "cups",
@@ -7727,9 +7574,7 @@
         "unit": "cup",
         "name": "heavy cream",
         "descriptor": "120ml"
-      }
-    ],
-    "ingredients_strawberries": [
+      },
       {
         "quantity": "1",
         "unit": "lemon",
